@@ -1,4 +1,4 @@
-def  hader(func):
+def hader(func):
 
     def inner(*args, **kwargs):
         print("<hader>")
