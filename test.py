@@ -23,14 +23,7 @@ my_car = Car("Toyota", 200, 4)
 """
 
 
-class Goods:
-    def __init__(self, name, weight, price):
-        print("init MixingLog")
-        self.name = name
-        self.weight = weight
-        self.price = price
 
-    def print_info(self):
-        print(f"{self.name}, {self.weight}, {self.price}")
+
 
 
