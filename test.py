@@ -23,8 +23,14 @@ my_car = Car("Toyota", 200, 4)
 """
 
 
-q = [2,4,5,6]
-a = map(lambda x: x**2,q)
-print(list(a))
+try:
+    with open("test.txt","a") as f:
+        a = input()
+        f.write(a + "\n")
+except ZeroDivisionError as z:
+    print(z)
+except:
+    print("Другая ошибка")
+
 
 

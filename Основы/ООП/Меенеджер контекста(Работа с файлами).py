@@ -36,3 +36,8 @@ with DefenderVector(v1) as dv:
     for i,a in enumerate(dv):
         dv[i] += v2[i]
 print(v1)
+
+with open("testFile.txt", "w") as f:  # файл открывается
+    f.write("Hello, World!")          # работа с файлом
+    # другие операции...
+# здесь файл автоматически закрывается
